@@ -14,8 +14,7 @@ Public S0 As Double, K As Double
 Public P As Double, U As Double, D As Double
 Public R As Double, T As Double, N As Double
 Public i, j As Integer
-```
-```vba
+
 Public Sub OptionsPricing_CRRModel()
 
     Dim Wb As Workbook
@@ -195,16 +194,12 @@ Public Sub OptionsPricing_CRRModel()
         .Cells(1, 1).Select
     
         ActiveCell.Range("A1").Value = "Stock Price"
-```
-
-```vba
-' With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
-'     .Merge
-'     .HorizontalAlignment = xlCenter
-'     .Font.Size = "14"
-'     .Font.Bold = True
-' End With
-```
+'        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
+'            .Merge
+'            .HorizontalAlignment = xlCenter
+'            .Font.Size = "14"
+'            .Font.Bold = True
+'        End With
         For i = 1 To N * T + 1
             ActiveCell.Cells(2, i).Value = "Time " & (i - 1)
         Next i
@@ -216,15 +211,12 @@ Public Sub OptionsPricing_CRRModel()
         ActiveCell.Offset(N * T + 4, 0).Select
     
         ActiveCell.Range("A1").Value = "European Call Price"
-
-```vba
 '        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
 '            .Merge
 '            .HorizontalAlignment = xlCenter
 '            .Font.Size = "14"
 '            .Font.Bold = True
 '        End With
-```
         For i = 1 To N * T + 1
             ActiveCell.Cells(2, i).Value = "Time " & (i - 1)
         Next i
@@ -236,15 +228,12 @@ Public Sub OptionsPricing_CRRModel()
         ActiveCell.Offset(N * T + 4, 0).Select
     
         ActiveCell.Range("A1").Value = "European Put Price"
-
-```vba
 '        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
 '            .Merge
 '            .HorizontalAlignment = xlCenter
 '            .Font.Size = "14"
 '            .Font.Bold = True
 '        End With
-```
         For i = 1 To N * T + 1
             ActiveCell.Cells(2, i).Value = "Time " & (i - 1)
         Next i
@@ -256,14 +245,12 @@ Public Sub OptionsPricing_CRRModel()
         ActiveCell.Offset(N * T + 4, 0).Select
         
         ActiveCell.Range("A1").Value = "American Call Price"
-```vba
 '        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
 '            .Merge
 '            .HorizontalAlignment = xlCenter
 '            .Font.Size = "14"
 '            .Font.Bold = True
 '        End With
-```
         For i = 1 To N * T + 1
             ActiveCell.Cells(2, i).Value = "Time " & (i - 1)
         Next i
@@ -275,14 +262,12 @@ Public Sub OptionsPricing_CRRModel()
         ActiveCell.Offset(N * T + 4, 0).Select
         
         ActiveCell.Range("A1").Value = "American Put Price"
-```vba
 '        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
 '            .Merge
 '            .HorizontalAlignment = xlCenter
 '            .Font.Size = "14"
 '            .Font.Bold = True
 '        End With
-```
         For i = 1 To N * T + 1
             ActiveCell.Cells(2, i).Value = "Time " & (i - 1)
         Next i
@@ -305,4 +290,4 @@ Public Sub OptionsPricing_CRRModel()
 
 End Sub
 
-
+```
