@@ -15,6 +15,7 @@ Public P As Double, U As Double, D As Double
 Public R As Double, T As Double, N As Double
 Public i, j As Integer
 ```
+```vba
 Public Sub OptionsPricing_CRRModel()
 
     Dim Wb As Workbook
@@ -193,7 +194,9 @@ Public Sub OptionsPricing_CRRModel()
         .Activate
         .Cells(1, 1).Select
     
-        ActiveCell.Range("A1").Value = "Stock Price" 
+        ActiveCell.Range("A1").Value = "Stock Price"
+```
+
 ```vba
 ' With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
 '     .Merge
