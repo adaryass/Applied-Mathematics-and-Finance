@@ -194,12 +194,14 @@ Public Sub OptionsPricing_CRRModel()
         .Cells(1, 1).Select
     
         ActiveCell.Range("A1").Value = "Stock Price" 
-'        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
-'            .Merge
-'            .HorizontalAlignment = xlCenter
-'            .Font.Size = "14"
-'            .Font.Bold = True
-'        End With
+```vba
+' With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
+'     .Merge
+'     .HorizontalAlignment = xlCenter
+'     .Font.Size = "14"
+'     .Font.Bold = True
+' End With
+```
         For i = 1 To N * T + 1
             ActiveCell.Cells(2, i).Value = "Time " & (i - 1)
         Next i
