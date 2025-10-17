@@ -2,7 +2,7 @@
 Quantitative finance portfolio: option pricing models (CRR, Black-Scholes), stochastic calculus, and portfolio optimization using machine learning.
 
 
-
+```vba
 Option Explicit             'Option to declare all the variables: makes your code clearer
                             'You have to declare all your variables
 
@@ -14,7 +14,7 @@ Public S0 As Double, K As Double
 Public P As Double, U As Double, D As Double
 Public R As Double, T As Double, N As Double
 Public i, j As Integer
-
+```
 Public Sub OptionsPricing_CRRModel()
 
     Dim Wb As Workbook
