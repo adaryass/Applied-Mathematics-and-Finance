@@ -193,7 +193,7 @@ Public Sub OptionsPricing_CRRModel()
         .Activate
         .Cells(1, 1).Select
     
-        ActiveCell.Range("A1").Value = "Stock Price"
+        ActiveCell.Range("A1").Value = "Stock Price" 
 '        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
 '            .Merge
 '            .HorizontalAlignment = xlCenter
