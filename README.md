@@ -213,12 +213,15 @@ Public Sub OptionsPricing_CRRModel()
         ActiveCell.Offset(N * T + 4, 0).Select
     
         ActiveCell.Range("A1").Value = "European Call Price"
+
+```vba
 '        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
 '            .Merge
 '            .HorizontalAlignment = xlCenter
 '            .Font.Size = "14"
 '            .Font.Bold = True
 '        End With
+```
         For i = 1 To N * T + 1
             ActiveCell.Cells(2, i).Value = "Time " & (i - 1)
         Next i
@@ -230,12 +233,15 @@ Public Sub OptionsPricing_CRRModel()
         ActiveCell.Offset(N * T + 4, 0).Select
     
         ActiveCell.Range("A1").Value = "European Put Price"
+
+```vba
 '        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
 '            .Merge
 '            .HorizontalAlignment = xlCenter
 '            .Font.Size = "14"
 '            .Font.Bold = True
 '        End With
+```
         For i = 1 To N * T + 1
             ActiveCell.Cells(2, i).Value = "Time " & (i - 1)
         Next i
@@ -247,12 +253,14 @@ Public Sub OptionsPricing_CRRModel()
         ActiveCell.Offset(N * T + 4, 0).Select
         
         ActiveCell.Range("A1").Value = "American Call Price"
+```vba
 '        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
 '            .Merge
 '            .HorizontalAlignment = xlCenter
 '            .Font.Size = "14"
 '            .Font.Bold = True
 '        End With
+```
         For i = 1 To N * T + 1
             ActiveCell.Cells(2, i).Value = "Time " & (i - 1)
         Next i
@@ -264,12 +272,14 @@ Public Sub OptionsPricing_CRRModel()
         ActiveCell.Offset(N * T + 4, 0).Select
         
         ActiveCell.Range("A1").Value = "American Put Price"
+```vba
 '        With ActiveCell.Range(Cells(1, 1), Cells(1, N * T + 1))
 '            .Merge
 '            .HorizontalAlignment = xlCenter
 '            .Font.Size = "14"
 '            .Font.Bold = True
 '        End With
+```
         For i = 1 To N * T + 1
             ActiveCell.Cells(2, i).Value = "Time " & (i - 1)
         Next i
