@@ -51,6 +51,10 @@ où :
 
  Considérons un portefeuille d’arbitrage 𝑉, c’est-à-dire un portefeuille répliquant le taux sans risque 𝑟 :
 
+ **𝑉 = C - hS**
+
+ donc: **d𝑉 = dC - hdS**  avec  **$dC = g(t,S_t)$**
+
  où :
 
 - 𝑉 est une position couverte sur l’action 𝑆 (position courte) et l’option d’achat 𝐶 (position longue) ;
