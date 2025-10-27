@@ -56,7 +56,7 @@ où :
 - 𝑉 est une position couverte sur l’action 𝑆 (position courte) et l’option d’achat 𝐶 (position longue) ;
 - 𝑉 ne dépend pas de l’évolution de l’actif sous-jacent : il est delta-couvert (delta-hedged) ;
 - $h =\frac{\partial c}{\partial S}$ est le ratio de couverture delta constant dans le temps ;
-- Le rendement instantané moyen du portefeuille d’arbitrage est : 𝛿𝑉/𝑉 = 𝑟𝑑𝑡
+- Le rendement instantané moyen du portefeuille d’arbitrage est : $\frac{\partial c}{\ S} = 𝑟𝑑𝑡$
 - La dérive du processus GBM devient 𝜇 = 𝑟 (conséquence de la condition de non-arbitrage).
 
 
