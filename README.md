@@ -1,10 +1,15 @@
 # Introduction 
 - Une option est un titre financier qui donne à son détenteur le droit et non l'obligation d'acheter ou de vendre un actif sous certains conditions, pendant une période déterminée.
-  
-Il y a plusieurs types d'exercice d'options, les plus connus et les plus utilisés en finance sont principalement trois :
+
+- Il y a plusieurs types d'exercice d'options, les plus connus et les plus utilisés en finance sont principalement trois :
 * **Une option américaine** est une option qui peut être exercée à tout moment jusqu'à la date d'expiration.
 * **Une option européenne** est une option qui ne peut être exercée qu'à la date de maturité.
 * **Une option bermudéenne** est une option qui ne peut être exercée qu'à certaines dates prédéfinies avant l’échéance.
+
+- Le prix payé pour l'actif lorsque l’option est exercée s’appelle s'appelle **le prix d'exercice** (**striking price** ou **exercice price**). 
+- Le dernier jour où l’option peut être exercée s’appelle **la date d’expiration** ou **date d’échéance** (**expiration date** ou **maturity date**).
+
+- Tout d'abord, nous allons aborder **option Call**.
 
 
 
