@@ -47,6 +47,18 @@ où :
 **$\mu S_t dt$** et **$\sigma S_t dW_t$** sont également couramment appelés **drift term** et **difusion term** associés au processus GBM (Geometric Brownian Motion, ou mouvement brownien géométrique).
 
 
+**Portfeuille d’arbitrage**
+
+ Considérons un portefeuille d’arbitrage 𝑉, c’est-à-dire un portefeuille répliquant le taux sans risque 𝑟 :
+
+ où :
+
+. 𝑉 est une position couverte sur l’action 𝑆 (position courte) et l’option d’achat 𝐶 (position longue) ;
+. 𝑉 ne dépend pas de l’évolution de l’actif sous-jacent : il est delta-couvert (delta-hedged) ;
+. h=δS/δC est le ratio de couverture delta constant dans le temps ;
+. Le rendement instantané moyen du portefeuille d’arbitrage est : 𝛿𝑉/𝑉 = 𝑟𝑑𝑡
+. La dérive du processus GBM devient 𝜇 = 𝑟 (conséquence de la condition de non-arbitrage).
+
 
 
 
