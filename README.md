@@ -20,7 +20,7 @@ $C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)$
 - **Modèle Black-Scholes-Merton (BSM)**
   la dynamique du prix de l’action S suivant un _Mouvement Brownien Géométrique_ (GBM), c’est-à-dire un processus lognormal:
 
-$$ 
+$$
 S_t = S_0 \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right]
 $$
 
@@ -34,18 +34,12 @@ D'après Théorème lemme d’Itô:
 
 - Le changement instantané (**Instantaneous price change**) de prix est :
   
-$$
-dS_t = \mu S_t dt + \sigma S_t dW_t
-$$
+$dS_t = \mu S_t dt + \sigma S_t dW_t$
 
-- Le rendement instantané du prix (**Instantaneous price return** est :
-  
-$$
-\frac{dS_t}{S_t} = \mu dt + \sigma dW_t
-$$
+- Le rendement instantané du prix (**Instantaneous price return** est :$\frac{dS_t}{S_t} = \mu dt + \sigma dW_t$
 
 où :
-$\mu S_t dt$ et $\sigma S_t dW_t$ sont également couramment appelés **drift term** et **difusion term** associés au processus GBM (Geometric Brownian Motion, ou mouvement brownien géométrique).
+**$\mu S_t dt$** et **$\sigma S_t dW_t$** sont également couramment appelés **drift term** et **difusion term** associés au processus GBM (Geometric Brownian Motion, ou mouvement brownien géométrique).
 
 
 
