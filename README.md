@@ -53,18 +53,20 @@ où :
 
  **𝑉 = C - hS**
 
- donc: **d𝑉 = dC - hdS**  avec  **$dC = g(t,S_t)$**
+ donc: **d𝑉 = dC - hdS**   avec   **$dC = g(t,S_t)$**
 
  où :
 
 - 𝑉 est une position couverte sur l’action 𝑆 (position courte) et l’option d’achat 𝐶 (position longue) ;
 - 𝑉 ne dépend pas de l’évolution de l’actif sous-jacent : il est delta-couvert (delta-hedged) ;
-- $h =\frac{\partial c}{\partial S}$ est le ratio de couverture delta constant dans le temps ;
+- $h =\frac{\partial C}{\partial S}$ est le ratio de couverture delta constant dans le temps ;
 - Le rendement instantané moyen du portefeuille d’arbitrage est : $\frac{\partial 𝑉}{\ 𝑉} = 𝑟𝑑𝑡$
 - La dérive du processus GBM devient 𝜇 = 𝑟 (conséquence de la condition de non-arbitrage).
 
-
-
+**Itô's Lemme**
+- Itô's Lemma pour dC:
+  $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 \S^2 \frac{\partial^2 c}{\partial S^2} dt$
+  
 
 # Binomial Options Pricing Model of Cox-Ross-Rubinstein
 Quantitative finance portfolio: option pricing models (CRR)
