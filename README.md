@@ -90,7 +90,7 @@ où :
 
 où :
 
- - $d2 ≡ \frac{\ln(S/K) + (r - \frac{\sigma^2}{\ 2})T}{\sigma \sqrt{T}}$  et   $d1 = d2 + \sigma \sqrt{T}
+ - $d2 ≡ \frac{\ln(S/K) + (r - \frac{\sigma^2}{\ 2})T}{\sigma \sqrt{T}}$  et   $d1 = d2 + \sigma \sqrt{T}$
  - N(⋅) est la fonction de répartition de la loi normale.
  - La **Parité Call-Put** : C − P = S − K exp [−rT]
 
