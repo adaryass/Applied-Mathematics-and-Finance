@@ -53,7 +53,7 @@ où :
 
  **𝑉 = C - hS**
 
- donc: **d𝑉 = dC - hdS**   avec   **$dC = g(t,S_t)$**
+ donc:   **d𝑉 = dC - hdS**   avec   **$dC = g(t,S_t)$**
 
  où :
 
@@ -71,9 +71,9 @@ où :
 
 
   et   $\frac{\partial 𝑉}{\ 𝑉} = 𝑟𝑑𝑡$
-  donc :  $d𝑉 = 𝑉𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - \frac{\partial C}{\partial S} S )𝑟𝑑𝑡$  (b)
+  donc :   $d𝑉 = 𝑉𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - \frac{\partial C}{\partial S} S )𝑟𝑑𝑡$  (b)
 
-  (1) = (2) :    Black-Scholes PDE
+  (a) = (b) :    **Black-Scholes PDE**
   $𝑟C = 𝑟 \frac{\partial C}{\partial S} S + \frac{\partial C}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}$
 
   
