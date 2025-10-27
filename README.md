@@ -17,6 +17,8 @@ $C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)$
 
 # Black-Scholes Options Pricing Formula
 
+- **Modèle Black-Scholes-Merton (BSM)**
+  la dynamique du prix de l’action S suivant un _Mouvement Brownien Géométrique_ (GBM), c’est-à-dire un processus lognormal :
 
 
 
