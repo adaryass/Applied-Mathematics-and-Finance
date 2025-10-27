@@ -17,7 +17,7 @@ $C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)$
 
 # Black-Scholes Options Pricing Formula
 
-- **Modèle Black-Scholes-Merton (BSM)**
+**Modèle Black-Scholes-Merton (BSM)**
   la dynamique du prix de l’action S suivant un _Mouvement Brownien Géométrique_ (GBM), c’est-à-dire un processus lognormal:
 
 $$
@@ -28,8 +28,10 @@ where:
  * µ est le rendement moyen instantané constant (Ici:  **µ = r** taux sans risque; OAT d'un mois).
  * σ  est la volatilité instantanée constante du rendement.
  * $W_t$ est un **processus de Wiener** au temps t, c’est-à-dire **un mouvement brownien**.
+   
 
-- **Itô's Process** 
+**Itô's Process** 
+
 D'après Théorème lemme d’Itô:
 
 - Le changement instantané (**Instantaneous price change**) de prix est :
