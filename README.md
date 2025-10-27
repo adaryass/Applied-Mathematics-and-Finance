@@ -84,13 +84,13 @@ où :
 
   Considérons le prix de l’option d’achat C (call) et le prix de l’option de vente P (put), alors:
 
-  C =  SN(d1)−K exp [−rT] N (d2)
+  $C =  SN(d_1)−K exp [−rT] N (d_2)$
   
-  P = -SN(-d1)+K expr[-rT] N(-d2)
+  $P = -SN(-d_1)+K expr[-rT] N(-d_2)$
 
 où :
 
- - $d2 ≡ \frac{\ln(\frac{S}{\ K}) + (r - \frac{\sigma^2}{\ 2})T}{\sigma \sqrt{T}}$  et   $d1 = d2 + \sigma \sqrt{T}$
+ - $d_2 ≡ \frac{\ln(\frac{S}{\ K}) + (r - \frac{\sigma^2}{\ 2})T}{\sigma \sqrt{T}}$  et   $d_1 = d_2 + \sigma \sqrt{T}$
  - N(⋅) est la fonction de répartition de la loi normale.
  - La **Parité Call-Put** : C − P = S − K exp [−rT]
 
