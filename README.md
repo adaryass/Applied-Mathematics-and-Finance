@@ -65,7 +65,7 @@ où :
 
 **Itô's Lemme**
 - Itô's Lemma pour dC:
-  $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 \S^2 \frac{\partial^2 c}{\partial S^2} dt$
+  $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 \S^2 \frac{\partial^2 C}{\partial S^2} dt$
   
 
 # Binomial Options Pricing Model of Cox-Ross-Rubinstein
