@@ -12,7 +12,7 @@
 - Tout d'abord, nous allons aborder **option Call**:
     *  **Boundary Condition**
       
-$ C_T = [ S_T - K ]^(+) $
+$C_T = [ S_T - K ]^{+}$
 
 
 
