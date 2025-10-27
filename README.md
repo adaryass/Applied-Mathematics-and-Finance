@@ -90,7 +90,27 @@ où :
 
 où :
 
-$d2 ≡ \frac{\ln(S/K) + (r - \sigma^2 / 2)T}{\sigma \sqrt{T}}$ 
+ - $d2 ≡ \frac{\ln(S/K) + (r - \frac{\sigma^2}{\ 2})T}{\sigma \sqrt{T}}$  et   $d1 = d2 + \sigma \sqrt{T}
+ - N(⋅) est la fonction de répartition de la loi normale.
+ - La **Parité Call-Put** : C − P = S − K exp [−rT]
+
+**Black-Scholes Greeks**
+
+Le **prix d’une option sur action** est directement déterminé par :
+ - Son **type** : option d’achat (call) ou option de vente (put).
+ - Son **mode d’exercice** : européenne, américaine, etc.
+ - L’évolution de son sous-jacent, c’est-à-dire le prix de l’action.
+ - La **date d’expiration**.
+ - Le **taux sans risque**.
+
+Les **“Greeks”** quantifient la sensibilité de la valeur de l’option à une variable donnée associée à un facteur de risque.
+
+Au premier ordre, les principales sensibilités sont :
+
+- Par rapport au **sous-jacent** : **Delta (∆)**.
+- Par rapport au **temps jusqu’à l’échéance** : **Theta (θ)**.
+- Par rapport à **la volatilité** : **Vega (ν)**.
+- Par rapport au **taux d’intérêt** : **Rho (ρ)**.
   
 
 # Binomial Options Pricing Model of Cox-Ross-Rubinstein
