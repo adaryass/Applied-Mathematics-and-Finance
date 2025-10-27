@@ -88,7 +88,9 @@ où :
   
   P = -SN(-d1)+K expr[-rT] N(-d2)
 
+où :
 
+$d2 ≡ \frac{\ln(S/K) + (r - \sigma^2 / 2)T}{\sigma \sqrt{T}}$ 
   
 
 # Binomial Options Pricing Model of Cox-Ross-Rubinstein
