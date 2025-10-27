@@ -86,7 +86,7 @@ où :
 
   $C =  SN(d_1)−K exp [−rT] N (d_2)$
   
-  $P = -SN(-d_1)+K expr[-rT] N(-d_2)$
+  $P = -SN(-d_1)+K exp[-rT] N(-d_2)$
 
 où :
 
