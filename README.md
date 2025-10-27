@@ -33,11 +33,13 @@ where:
 D'après Théorème lemme d’Itô:
 
 - Le changement instantané (**Instantaneous price change**) de prix est :
+  
 $$
 dS_t = \mu S_t dt + \sigma S_t dW_t
 $$
 
 - Le rendement instantané du prix (**Instantaneous price return** est :
+  
 $$
 \frac{dS_t}{S_t} = \mu dt + \sigma dW_t
 $$
