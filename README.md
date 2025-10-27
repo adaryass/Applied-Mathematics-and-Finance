@@ -68,6 +68,12 @@ où :
   $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2} dt$
 
   $d𝑉 = [ \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}] dt$
+
+
+  et  $\frac{\partial 𝑉}{\ 𝑉} = 𝑟𝑑𝑡$
+  donc : $d𝑉 = 𝑉𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - \frac{\partial C}{\partial S} S )𝑟𝑑𝑡$
+
+  
   
 
 # Binomial Options Pricing Model of Cox-Ross-Rubinstein
