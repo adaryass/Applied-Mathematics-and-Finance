@@ -36,7 +36,8 @@ D'après Théorème lemme d’Itô:
   
 $dS_t = \mu S_t dt + \sigma S_t dW_t$
 
-- Le rendement instantané du prix (**Instantaneous price return** est :$\frac{dS_t}{S_t} = \mu dt + \sigma dW_t$
+- Le rendement instantané du prix (**Instantaneous price return** est :
+$\frac{dS_t}{S_t} = \mu dt + \sigma dW_t$
 
 où :
 **$\mu S_t dt$** et **$\sigma S_t dW_t$** sont également couramment appelés **drift term** et **difusion term** associés au processus GBM (Geometric Brownian Motion, ou mouvement brownien géométrique).
