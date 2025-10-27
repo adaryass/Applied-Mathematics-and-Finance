@@ -9,7 +9,11 @@
 - Le prix payé pour l'actif lorsque l’option est exercée s’appelle s'appelle **le prix d'exercice** (**striking price** ou **exercice price**). 
 - Le dernier jour où l’option peut être exercée s’appelle **la date d’expiration** ou **date d’échéance** (**expiration date** ou **maturity date**).
 
-- Tout d'abord, nous allons aborder **option Call**.
+- Tout d'abord, nous allons aborder **option Call**:
+    *  **Boundary Condition**
+        $$
+       C_T = [C_T - K ]^\top +
+       $$ 
 
 
 
