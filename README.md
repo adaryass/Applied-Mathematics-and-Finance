@@ -84,7 +84,10 @@ où :
 
   Considérons le prix de l’option d’achat C (call) et le prix de l’option de vente P (put), alors:
 
-  C = −K exp [−rT] N (d2) + SN (d1)
+  C =  SN(d1)−K exp [−rT] N (d2)
+  
+  P = -SN(-d1)+K expr[-rT] N(-d2)
+
 
   
 
