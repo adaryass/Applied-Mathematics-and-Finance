@@ -19,9 +19,7 @@ $C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)$
 
 - **Modèle Black-Scholes-Merton (BSM)**
   la dynamique du prix de l’action S suivant un _Mouvement Brownien Géométrique_ (GBM), c’est-à-dire un processus lognormal:
-$$
-S_t = S_0 \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right]
-$$
+$$S_t = S_0 \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right]$$
 
 where:
  * µ is the **constant** instantaneous mean return.
