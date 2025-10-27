@@ -1,4 +1,5 @@
-# Introduction 
+Introduction 
+-----------
 - Une option est un titre financier qui donne à son détenteur le droit et non l'obligation d'acheter ou de vendre un actif sous certains conditions, pendant une période déterminée.
 
 - Il y a plusieurs types d'exercice d'options, les plus connus et les plus utilisés en finance sont principalement trois :
