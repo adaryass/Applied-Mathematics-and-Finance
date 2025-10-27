@@ -11,10 +11,9 @@
 
 - Tout d'abord, nous allons aborder **option Call**:
     *  **Boundary Condition**
-        $$
-       C_T = [C_T - K ]^\top +
-       $$ 
-
+$$
+C_T = [ S_T - K ]^+
+$$
 
 
 
