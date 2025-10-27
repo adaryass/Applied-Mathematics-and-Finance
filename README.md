@@ -68,17 +68,24 @@ où :
 
   $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2} dt$
 
-  $d𝑉 = [ \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}] dt$   (a)
+  $d𝑉 = [ \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}] dt$         (a)
 
 
   et   $\frac{\partial 𝑉}{\ 𝑉} = 𝑟𝑑𝑡$
-  donc :   $d𝑉 = 𝑉𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - \frac{\partial C}{\partial S} S )𝑟𝑑𝑡$  (b)
+
+  donc :   $d𝑉 = 𝑉𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - \frac{\partial C}{\partial S} S )𝑟𝑑𝑡$                          (b)
 
   (a) = (b) :    **Black-Scholes PDE**
 
   $𝑟C = 𝑟 \frac{\partial C}{\partial S} S + \frac{\partial C}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}$
 
-  
+
+  **Pricing Formule**
+
+  Considérons le prix de l’option d’achat C (call) et le prix de l’option de vente P (put), alors:
+
+  C = −K exp [−rT] N (d2) + SN (d1)
+
   
 
 # Binomial Options Pricing Model of Cox-Ross-Rubinstein
