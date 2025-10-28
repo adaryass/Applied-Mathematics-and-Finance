@@ -96,7 +96,7 @@ où :
  donc:   **d𝑉 = dC - hdS**   avec   
  **$$
  dC = g(t,S_t)
- $**
+ $$**
 
  où :
 
