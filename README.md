@@ -48,7 +48,8 @@ where:
       Ainsi, **tous les actifs ont la même espérance de rendement égale au taux sans risque**.
    
       Ce passage correspond au **changement de mesure de probabilité** : on quitte **la mesure réelle (ou physique) 𝑃** pour **la mesure neutre au risque 𝑄**, ce qui s’écrit:
-      $\mathbb{E}^{(\mathbb{P})}[\cdot] \longrightarrow \mathbb{E}^{(\mathbb{Q})}[\cdot]$
+      $\mathbb{E}^P[\cdot] \longrightarrow \mathbb{E}^Q[\cdot]$
+
 
                                         
       
@@ -57,6 +58,7 @@ where:
    d. Les titres sont parfaitement divisibles, c’est-à-dire qu’on peut acheter ou vendre des fractions d’actifs.
    
    e. Il est possible d’emprunter et de prêter au taux sans risque 𝑟, sans limite.
+
    
 
 **Itô's Process** 
@@ -76,6 +78,7 @@ où :
 **$\mu S_t dt$** et **$\sigma S_t dW_t$** sont également couramment appelés **drift term** et **difusion term** associés au processus GBM (Geometric Brownian Motion, ou mouvement brownien géométrique).
 
 
+
 **Portfeuille d’arbitrage**
 
  Considérons un portefeuille d’arbitrage 𝑉, c’est-à-dire un portefeuille répliquant le taux sans risque 𝑟 :
@@ -92,6 +95,8 @@ où :
 - Le rendement instantané moyen du portefeuille d’arbitrage est : $\frac{\partial 𝑉}{\ 𝑉} = 𝑟𝑑𝑡$
 - La dérive du processus GBM devient 𝜇 = 𝑟 (conséquence de la condition de non-arbitrage).
 
+
+
 **Itô's Lemme**
 - Itô's Lemma pour dC:
 
@@ -107,6 +112,7 @@ où :
   (a) = (b) :    **Black-Scholes PDE**
 
   $𝑟C = 𝑟 \frac{\partial C}{\partial S} S + \frac{\partial C}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}$
+
 
 
   **Pricing Formule**
