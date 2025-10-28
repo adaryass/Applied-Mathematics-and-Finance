@@ -127,6 +127,11 @@ où :
 
  - $d_2 ≡ \frac{\ln(\frac{S}{\ K}) + (r - \frac{\sigma^2}{\ 2})T}{\sigma \sqrt{T}}$  et   $d_1 = d_2 + \sigma \sqrt{T}$
  - N(⋅) est la fonction de répartition de la loi normale.
+
+   $N(d_1) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{d_1} e^{-z^2/2} \, dz$ et $N(-d_1) = 1 - N(d_1)$
+
+   $N(d_2) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{d_2} e^{-z^2/2} \, dz$ et $N(-d_2) = 1 - N(d_2)$
+   
  - La **Parité Call-Put** : C − P = S − K exp [−rT]
 
 **Black-Scholes Greeks**
