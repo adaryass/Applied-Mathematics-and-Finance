@@ -18,7 +18,7 @@ $C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)$
 
 # Black-Scholes Options Pricing Formula
 
-**Modèle Black-Scholes-Merton (BSM)**
+## **Modèle Black-Scholes-Merton (BSM)**
   la dynamique du prix de l’action S suivant un _Mouvement Brownien Géométrique_ (GBM), c’est-à-dire un processus lognormal:
 
 $$
@@ -32,7 +32,7 @@ where:
    C'est à dire : $W_0 = 0$ et $W_t - W_s \sim N(0, t - s)$ et les incréments $W_t - W_s$ sont indépendants pour s < t.
 
 
-**Hypothèses du modèle Black-Scholes**
+## **Hypothèses du modèle Black-Scholes**
 1. Hypothèses sur le comportement du prix de l’actif sous-jacent:
    
    a. Le **prix de l’actif S(t)** suit un mouvement brownien géométrique.
@@ -63,7 +63,7 @@ where:
 
    
 
-**Itô's Process** 
+## **Itô's Process** 
 
 D'après Théorème lemme d’Itô:
 
@@ -81,7 +81,7 @@ où :
 
 
 
-**Portfeuille d’arbitrage**
+## **Portfeuille d’arbitrage**
 
  Considérons un portefeuille d’arbitrage 𝑉, c’est-à-dire un portefeuille répliquant le taux sans risque 𝑟 :
 
@@ -99,7 +99,7 @@ où :
 
 
 
-**Itô's Lemme**
+## **Itô's Lemme**
 - Itô's Lemma pour dC:
 
   $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2} dt$
@@ -117,7 +117,7 @@ où :
 
 
 
-  **Pricing Formule**
+  ## **Pricing Formule**
 
   Considérons le prix de l’option d’achat C (call) et le prix de l’option de vente P (put), alors:
 
@@ -136,7 +136,7 @@ où :
    
  - La **Parité Call-Put** : C − P = S − K exp [−rT]
 
-**Black-Scholes Greeks**
+## **Black-Scholes Greeks**
 
 Le **prix d’une option sur action** est directement déterminé par :
  - Son **type** : option d’achat (call) ou option de vente (put).
@@ -153,6 +153,19 @@ Au premier ordre, les principales sensibilités sont :
 - Par rapport au **temps jusqu’à l’échéance** : **Theta (θ)**.
 - Par rapport à **la volatilité** : **Vega (ν)**.
 - Par rapport au **taux d’intérêt** : **Rho (ρ)**.
+
+**Delta et couverture Delta : gérer le risque directionnel**
+
+- Le **Delta**, l’un des Greeks les plus utilisés, mesure la sensibilité du prix d’une option aux variations du prix de son actif sous-jacent.
+- le **Delta** correspond à la sensibilité de premier ordre par rapport au sous-jacent S.
+- Un **Delta** de y signifie que si le prix du sous-jacent varie de 1 %, alors la valeur de l’option variera d’environ y × 1 %.
+
+- **Delta d'un Call**
+  $∆C = \frac{\partial C}{\partial S} = N(d_1)$
+  
+
+  
+
   
 
 # Binomial Options Pricing Model of Cox-Ross-Rubinstein
