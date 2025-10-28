@@ -29,6 +29,25 @@ where:
  * µ est le rendement moyen instantané constant (Ici:  **µ = r** taux sans risque; OAT d'un mois).
  * σ  est la volatilité instantanée constante du rendement.
  * $W_t$ est un **processus de Wiener** au temps t, c’est-à-dire **un mouvement brownien**.
+
+**Hypothèses du modèle Black-Scholes**
+1. Hypothèses sur le comportement du prix de l’actif sous-jacent:
+   a. Le **prix de l’actif S(t)** suit un mouvement brownien géométrique.
+   b. La **volatilité (𝜎)** et le **taux d’intérêt sans risque (𝑟)** sont constants dans le temps.
+   c. Les **rendements logarithmiques** de l’actif sont **normalement distribués**.
+
+2. Hypothèses sur le marché financier:
+   a. Le marché est **parfaitement liquide** : on peut acheter ou vendre n’importe quelle quantité de l’actif instantanément sans influencer le prix.
+   b. Il **n’existe pas d’opportunités d’arbitrage(AOA)** c’est-à-dire qu’aucun profit sans risque n’est possible. Dans un **monde sans arbitrage**, on peut passer d’une économie **aversion         au risque** à une économie **neutre au risque**. Ainsi, **tous les actifs ont la même espérance de rendement égale au taux sans risque**.
+      Ce passage correspond au **changement de mesure de probabilité** : on quitte **la mesure réelle (ou physique) 𝑃** pour **la mesure neutre au risque 𝑄**, ce qui s’écrit:
+      $\[
+\mathbb{E}^{(\mathbb{P})}[\cdot] \; \longrightarrow \; \mathbb{E}^{(\mathbb{Q})}[\cdot]
+\]$
+                                        
+      
+   c. Les frais de transaction et impôts sont nuls.
+   d. Les titres sont parfaitement divisibles, c’est-à-dire qu’on peut acheter ou vendre des fractions d’actifs.
+   e. Il est possible d’emprunter et de prêter au taux sans risque 𝑟, sans limite.
    
 
 **Itô's Process** 
