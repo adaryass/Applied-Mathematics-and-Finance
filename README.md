@@ -14,8 +14,10 @@ Introduction
     *  **Boundary Condition**
       
 $C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)$
+
+$$C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)$$
 $\boxed{C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)}
-\boxed{}
+
 # Black-Scholes Options Pricing Formula
 
 ## **Modèle Black-Scholes-Merton (BSM)**
