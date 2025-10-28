@@ -160,8 +160,8 @@ Au premier ordre, les principales sensibilités sont :
 - le **Delta** correspond à la sensibilité de premier ordre par rapport au sous-jacent S.
 - Un **Delta** de y signifie que si le prix du sous-jacent varie de 1 %, alors la valeur de l’option variera d’environ y × 1 %.
 
-- **Delta d'un Call**
-  $∆C = \frac{\partial C}{\partial S} = N(d_1)$
+- **Delta d'un Call :**
+  $\Delta_C = \frac{\partial C}{\partial S} = N(d_1)$ et $\Delta_P = \frac{\partial P}{\partial S} = N(d_1)
   
 
   
