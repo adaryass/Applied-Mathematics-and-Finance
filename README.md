@@ -43,7 +43,10 @@ where:
    
    a. Le marché est **parfaitement liquide** : on peut acheter ou vendre n’importe quelle quantité de l’actif instantanément sans influencer le prix.
    
-   b. Il **n’existe pas d’opportunités d’arbitrage(AOA)** c’est-à-dire qu’aucun profit sans risque n’est possible. Dans un **monde sans arbitrage**, on peut passer d’une économie **aversion         au risque** à une économie **neutre au risque**. Ainsi, **tous les actifs ont la même espérance de rendement égale au taux sans risque**.
+   b. Il **n’existe pas d’opportunités d’arbitrage(AOA)** c’est-à-dire qu’aucun profit sans risque n’est possible.
+      Dans un **monde sans arbitrage**, on peut passer d’une économie **aversion au risque** à une économie **neutre au risque**.
+      Ainsi, **tous les actifs ont la même espérance de rendement égale au taux sans risque**.
+   
       Ce passage correspond au **changement de mesure de probabilité** : on quitte **la mesure réelle (ou physique) 𝑃** pour **la mesure neutre au risque 𝑄**, ce qui s’écrit:
       $\mathbb{E}^{(\mathbb{P})}[\cdot] \longrightarrow \mathbb{E}^{(\mathbb{Q})}[\cdot]$
 
