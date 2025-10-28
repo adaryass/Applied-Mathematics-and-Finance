@@ -14,7 +14,7 @@ Introduction
     *  **Boundary Condition**
       
 $$
-C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)
+C_T = [ S_T - K ]^{+}  = $Max(S_T -K, 0)
 $$
 
 
