@@ -29,6 +29,8 @@ where:
  * µ est le rendement moyen instantané constant (Ici:  **µ = r** taux sans risque; OAT d'un mois).
  * σ  est la volatilité instantanée constante du rendement.
  * $W_t$ est un **processus de Wiener** au temps t, c’est-à-dire **un mouvement brownien**.
+   C'est à dire : $W_0 = 0$ et $W_t - W_s \sim N(0, t - s)$ et les incréments $W_t - W_s$ sont indépendants pour s < t.
+
 
 **Hypothèses du modèle Black-Scholes**
 1. Hypothèses sur le comportement du prix de l’actif sous-jacent:
