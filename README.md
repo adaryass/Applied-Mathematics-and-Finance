@@ -13,7 +13,9 @@ Introduction
 - Tout d'abord, nous allons aborder **option Call**:
     *  **Boundary Condition**
       
-$C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)$
+$$
+C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)
+$$
 
 
 # Black-Scholes Options Pricing Formula
@@ -69,11 +71,15 @@ D'après Théorème lemme d’Itô:
 
 - Le changement instantané (**Instantaneous price change**) de prix est :
   
-$dS_t = \mu S_t dt + \sigma S_t dW_t$
+$$
+dS_t = \mu S_t dt + \sigma S_t dW_t
+$$
 
 - Le rendement instantané du prix (**Instantaneous price return** est :
 
-$\frac{dS_t}{S_t} = \mu dt + \sigma dW_t$
+$$
+\frac{dS_t}{S_t} = \mu dt + \sigma dW_t
+$$
 
 où :
 
@@ -102,20 +108,35 @@ où :
 ## **Itô's Lemme**
 - Itô's Lemma pour dC et dP:
 
-  $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2} dt$
+  $$
+  dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2} dt
+  $$
 
-  $dP = \frac{\partial P}{\partial S} dS + \frac{\partial P}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2} dt
+  $$
+  dP = \frac{\partial P}{\partial S} dS + \frac{\partial P}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2} dt
+  $$
 
 On a : **d𝑉 = dC - hdS = hdS - dP**
 
-  $d𝑉 = [ \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}] dt$                      (a.1)
+  $$
+  d𝑉 = [ \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}] dt
+  $$                      (a.1)
 
-  $d𝑉 = - [ \frac{\partial P}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}] dt$                     (a.2)
+  $$
+  d𝑉 = - [ \frac{\partial P}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}] dt
+  $$                     (a.2)
 
 
-  et   $\frac{\partial 𝑉}{\ 𝑉} = 𝑟𝑑𝑡$
+  et   
+  $$
+  \frac{\partial 𝑉}{\ 𝑉} = 𝑟𝑑𝑡
+  $$
+ 
 
-  donc :   $d𝑉 = 𝑉𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - \frac{\partial C}{\partial S} S )𝑟𝑑𝑡$                          (b)
+  donc :   
+  $$
+  d𝑉 = 𝑉𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - \frac{\partial C}{\partial S} S )𝑟𝑑𝑡
+  $$                          (b)
       
 
   (a.1) = (b) et  (a.2) = (b) :    **Black-Scholes PDE**
