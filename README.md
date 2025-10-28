@@ -93,10 +93,7 @@ où :
 
  **𝑉 = C - hS**
 
- donc:   **d𝑉 = dC - hdS**   avec   
-$$
-dC = g(t,S_t)
-$$
+ donc:   **d𝑉 = dC - hdS**   avec   $dC = g(t,S_t)$
 
  où :
 
