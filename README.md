@@ -120,9 +120,13 @@ On a : **d𝑉 = dC - hdS = hdS - dP**
 
   (a.1) = (b) et  (a.2) = (b) :    **Black-Scholes PDE**
 
-  $𝑟C = 𝑟 \frac{\partial C}{\partial S} S + \frac{\partial C}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}$ et 
+  $$
+  𝑟C = 𝑟 \frac{\partial C}{\partial S} S + \frac{\partial C}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}
+  $$ 
   
-  $𝑟P = 𝑟 \frac{\partial P}{\partial S} S + \frac{\partial P}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}$
+  $$
+  𝑟P = 𝑟 \frac{\partial P}{\partial S} S + \frac{\partial P}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}
+  $$
 
 
 
