@@ -108,23 +108,18 @@ où :
 ## **Itô's Lemme**
 - Itô's Lemma pour dC et dP:
 
-  $$
-  dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2} dt
-  $$
+  $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2} dt$
 
-
-  $$
-  dP = \frac{\partial P}{\partial S} dS + \frac{\partial P}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2} dt
-  $$
+  $dP = \frac{\partial P}{\partial S} dS + \frac{\partial P}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2} dt$
 
 On a : **d𝑉 = dC - hdS = hdS - dP**
 
   $$
-  d𝑉 = [ \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}] dt   (a.1)
+  d𝑉 = [ \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}] dt \quad  (a.1)
   $$                      
 
   $$
-  d𝑉 = - [ \frac{\partial P}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}] dt  (a.2)
+  d𝑉 = - [ \frac{\partial P}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}] dt \quad  (a.2)
   $$                     
 
 
@@ -138,7 +133,7 @@ On a : **d𝑉 = dC - hdS = hdS - dP**
   donc : 
   
   $$
-  d𝑉 = 𝑉𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - \frac{\partial C}{\partial S} S )𝑟𝑑𝑡            (b)
+  d𝑉 = 𝑉𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - hS)𝑟𝑑𝑡 = (C - \frac{\partial C}{\partial S} S )𝑟𝑑𝑡  \quad (b)
   $$                          
       
 
