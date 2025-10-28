@@ -17,8 +17,8 @@ $C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)$
 
 $\boxed{C_T = [ S_T - K ]^{+}  = $Max(S_T -K, 0)}$
 
-|----------|
-| a^2 + b^2 = c^2 |
+$|----------|
+| a^2 + b^2 = c^2 |$
 
 # Black-Scholes Options Pricing Formula
 
