@@ -15,10 +15,6 @@ Introduction
       
 $C_T = [ S_T - K ]^{+}$  = $Max(S_T -K, 0)$
 
-$\boxed{C_T = [ S_T - K ]^{+}  = $Max(S_T -K, 0)}$
-
-$|----------|
-| a^2 + b^2 = c^2 |$
 
 # Black-Scholes Options Pricing Formula
 
@@ -108,11 +104,13 @@ où :
 
   $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2} dt$
 
-  $dC = \frac{\partial P}{\partial S} dS + \frac{\partial P}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2} dt
+  $dP = \frac{\partial P}{\partial S} dS + \frac{\partial P}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2} dt
 
-  $d𝑉 = [ \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}] dt$         (a.1)
+On a : **d𝑉 = dC - hdS = hdS - dP**
 
-  $d𝑉 = - [ \frac{\partial P}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}] dt$         (a.2)
+  $d𝑉 = [ \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}] dt$                      (a.1)
+
+  $d𝑉 = - [ \frac{\partial P}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}] dt$                     (a.2)
 
 
   et   $\frac{\partial 𝑉}{\ 𝑉} = 𝑟𝑑𝑡$
@@ -122,11 +120,9 @@ où :
 
   (a.1) = (b) et  (a.2) = (b) :    **Black-Scholes PDE**
 
-  $𝑟C = 𝑟 \frac{\partial C}{\partial S} S + \frac{\partial C}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}$
-
-et
-
- $𝑟P = 𝑟 \frac{\partial P}{\partial S} S + \frac{\partial P}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}$
+  $𝑟C = 𝑟 \frac{\partial C}{\partial S} S + \frac{\partial C}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2}$ et 
+  
+  $𝑟P = 𝑟 \frac{\partial P}{\partial S} S + \frac{\partial P}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}$
 
 
 
