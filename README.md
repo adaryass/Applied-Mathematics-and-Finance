@@ -220,15 +220,20 @@ C = exp[-rT] \mathbb{E}^Q[C_T]
 $$
 
 $$
-A : { le Call expire dans la monnaie (ITM)}
+A : \text{le Call expire dans la monnaie (ITM)}
 $$
-ou
+Où
 $$
 1_A \; \longrightarrow \;
 \begin{cases}
 1, & \text{si } A \text{ est réalisée} \\
 0, & \text{sinon}
 \end{cases}
+$$
+
+$$
+C = exp[-rT] \mathbb{E}^Q[S 1_A] - exp[-rT] \mathbb{E}^Q[K 1_A]
+  = exp[-rT] S_T Q[A] - K exp[-rT] Q[A]
 $$
 
 
