@@ -293,7 +293,7 @@ $$
 
 donc
 
-$Q[A] &= \mathbb{P}^Q[Z > - d_2] &= \mathbb{P}^Q[Z < d_2]$
+$Q[A] = \mathbb{P}^Q[Z > - d_2] = \mathbb{P}^Q[Z < d_2]$
 
   ## **Pricing Formule**
 
