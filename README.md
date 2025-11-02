@@ -110,10 +110,10 @@ où :
 
 
 $$
-C = g(t, S_t)
+Y_t = g(t, S_t)
 $$
 
-- $X_t$ est un processus d'Itô, alors:  $dX_t = U_t dt + V_t dW_t$
+- $X_t$ est un processus d'Itô, alors:  $dX_t = U_t dt + V_t dW_t$ 
 - $Y_t = g(t,X_t)$ est un autre processus d'Itô. Alors:
   
 D'après Théorème lemme d’Itô:
@@ -121,7 +121,7 @@ D'après Théorème lemme d’Itô:
 $$
 dY_t = \frac{\partial g}{\partial t} (t, X_t) dt + \frac{\partial g}{\partial x} (t, X_t) dX_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} (t,X_t) dt
 $$
-
+On remplace l'expepression de $dX_t$ dans l'équation $dY_t$
 $$
 \Leftrightarrow dY_t = \frac{\partial g}{\partial t} (t, X_t) dt + \frac{\partial g}{\partial x} (t,X_t) U_t dt + \frac{\partial g}{\partial x} V_t dW_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} (t,X_t) dt
 $$
@@ -131,7 +131,11 @@ $$
 \Leftrightarrow dY_t = [ \frac{\partial g}{\partial t} + \frac{\partial g}{\partial x} U_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} ] dt + \frac{\partial g}{\partial x} V_t dW_t 
 $$
 
-
+- Pour : $C = g(t,S_t)$, donc:
+  $$
+  dC =[ \frac{\partial C}{\partial t} + \frac{\partial C}{\partial S} r S_t + \frac{\ 1}{\ 2} \sigma^2 S_t^2 \frac{\partial^2 C}{\partial S^2} ] dt + \frac{\partial C}{\partial S} \sigma S_t dW_t
+  $$
+  
 - Itô's Lemma pour dC et dP:
 
   $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2} dt$
