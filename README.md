@@ -119,16 +119,16 @@ $$
 D'après Théorème lemme d’Itô:
 
 $$
-dY_t = \frac{\partial g}{\partial t} (t, X_t) dt + \frac{\partial g}{\partial x} dX_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} (t,X_t) dt
+dY_t = \frac{\partial g}{\partial t} (t, X_t) dt + \frac{\partial g}{\partial x} (t, X_t) dX_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} (t,X_t) dt
 $$
 
 $$
-dY_t = \frac{\partial g}{\partial t} (t, X_t) dt + \frac{\partial g}{\partial x} U_t dt + \frac{\partial g}{\partial x} V_t dW_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} (t,X_t) dt
+dY_t = \frac{\partial g}{\partial t} (t, X_t) dt + \frac{\partial g}{\partial x} (t,X_t) U_t dt + \frac{\partial g}{\partial x} V_t dW_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} (t,X_t) dt
 $$
 
 
 $$
-dY_t = [ \frac{\partial g}{\partial t} (t, X_t) + \frac{\partial g}{\partial x} U_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} (t,X_t) ] dt + \frac{\partial g}{\partial x} V_t dW_t 
+dY_t = [ \frac{\partial g}{\partial t} + \frac{\partial g}{\partial x} U_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} ] dt + \frac{\partial g}{\partial x} V_t dW_t 
 $$
 
 
