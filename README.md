@@ -207,6 +207,7 @@ $$
 
 où C∈R est une constante et la solution 
 σ peut être trouvée en utilisant un algorithme itératif de recherche de racine. De plus, on peut remarquer que la formule de Black-Scholes  est bijective par rapport à σ.
+
 *  **Boundary Condition**
       
 $$
@@ -320,7 +321,13 @@ où :
    $N(d_1) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{d_1} e^{-z^2/2} \ dz$   et    $N(-d_1) = 1 - N(d_1)$
 
    $N(d_2) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{d_2} e^{-z^2/2} \ dz$   et    $N(-d_2) = 1 - N(d_2)$
-   
+
+
+
+
+ On a : $C_T - P_T =  [ S_T - K ]^{+} = [ K - S_T ]^{+}
+
+donc : $C_t - P_t = exp[-rT]\mathbb{E}^Q[C_T - P_T]$ 
  - La **Parité Call-Put** : C − P = S − K exp [−rT]
 
 ## **Black-Scholes Greeks**
