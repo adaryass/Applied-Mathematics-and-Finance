@@ -200,6 +200,7 @@ $$
 
  où $C_BS$ est le prix donné par le modèle Black-Scholes, $C_obs$ est le prix observé sur le marché ou un prix simulé par un modèle donné.
 - Puisque le prix observé ne change pas à un instant fixe dans le temps, c’est une constante, donc l’équation devient:
+
 $$
 C_{BS}(t,S_t,K, T,\sigma) - C = 0
 $$ 
@@ -207,6 +208,9 @@ $$
 où C∈R est une constante et la solution 
 σ peut être trouvée en utilisant un algorithme itératif de recherche de racine. De plus, on peut remarquer que la formule de Black-Scholes  est bijective par rapport à σ.
 
+$$
+C = exp[-rT] \mathbb{E}^Q[C_T]
+$$
 
   ## **Pricing Formule**
 
