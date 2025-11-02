@@ -247,15 +247,15 @@ Q[A] = \mathbb{P}^Q[S_T > K]
 $$
 
 $$
-     = \mathbb{P}^Q[\exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > K]
+     = \mathbb{P}^Q[\exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) T + \sigma W_T \right] > K]
 $$
 
 $$
-     = \mathbb{P}^Q[ \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > \frac{K}{S}]
+     = \mathbb{P}^Q[ \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) T + \sigma W_T \right] > \frac{K}{S}]
 $$
 
 $$
-  = \mathbb{P}^Q \Bigg[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t > \ln\left(\frac{K}{S}\right) \Bigg]
+  = \mathbb{P}^Q \Bigg[ \left( \mu - \frac{\sigma^2}{2} \right) T + \sigma W_T > \ln\left(\frac{K}{S}\right) \Bigg]
 $$
 
 **Théorème central limite** :  
@@ -268,13 +268,34 @@ $$
 
 $$
 \Leftrightarrow \[
-\frac{W_t}{\sqrt{t}} \xrightarrow[t \to +\infty]{\mathcal{L}} Z,
+\frac{W_t}{\sqrt{t}} \xrightarrow[+\infty]{\mathcal{L}} Z,
 \quad \text{où} \quad Z \sim \mathcal{N}(0,1).
 \]
 $$
 
 $$
 \Leftrightarrow \ W_t = \sqrt{t} Z
+$$
+
+donc:
+
+$$
+Q[A] = \mathbb{P}^Q[ \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) T + \sigma \sqrt{T} Z \right] > \frac{K}{S}]
+$$
+
+$$ 
+     = \mathbb{P}^Q[ Z > \frac{\ln(\frac{K}{\ S}) - (r - \frac{\sigma^2}{\ 2})T}{\sigma \sqrt{T}}]
+$$
+
+$$
+      = \mathbb{P}^Q[Z >  - [\frac{\ln(\frac{S}{\ K}) + (r - \frac{\sigma^2}{\ 2})T}{\sigma \sqrt{T}}]]
+$$
+
+donc
+$$
+\begin{align}
+Q[A] &= \mathbb{P}^Q[Z > - d_2] &= \mathbb{P}^Q[Z < d_2]
+\end{align}
 $$
 
   ## **Pricing Formule**
