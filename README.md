@@ -245,9 +245,14 @@ $$
 \begin{align}
 Q[A] &= \mathbb{P}^Q[S_T > K]
      &= \mathbb{P}^Q[\exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > K]
-     &= \mathbb{P}^Q[ \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > \frac{K}{S}]
+     &= \mathbb{P}^Q[ \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > \frac{K}{S}]
 \end{align}
 $$
+
+$$
+  = \mathbb{P}^Q \Bigg[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t > \ln\left(\frac{K}{S}\right) \Bigg]
+$$
+
   ## **Pricing Formule**
 
   Considérons le prix de l’option d’achat C (call) et le prix de l’option de vente P (put), alors:
