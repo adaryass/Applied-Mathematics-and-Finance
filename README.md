@@ -261,7 +261,9 @@ $$
 **Théorème central limite** :  
 
 $$
-\frac{W_t - \mathbb{E}[W_T]}{\sqrt{\mathrm{Var}[W_T]}} \xrightarrow[T \to +\infty]{\mathcal{L}} \mathcal{N}(0,1)
+\frac{W_t - \mathbb{E}[W_T]}{\sqrt{\mathrm{Var}[W_T]}} 
+\xrightarrow[T \to +\infty]{\mathcal{L}} 
+\mathcal{N}(0,1)
 $$
 
 
