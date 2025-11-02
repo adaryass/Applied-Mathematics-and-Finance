@@ -190,6 +190,20 @@ On a : **d𝑉 = dC - hdS = hdS - dP**
   𝑟P = 𝑟 \frac{\partial P}{\partial S} S + \frac{\partial P}{\partial t}  + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 P}{\partial S^2}
   $$
 
+## **Volatilité implicite de Black-Sholes**
+
+-La volatilité implicite d'un prix d'option donné est la volatilité du modèle Black-Scholes associée à ce prix, c'est à dire que l'on veut trouver la volatilité σ telle que
+$$
+C_BS (t,S_t,K, T,\sigma) = C_obs ((t,S_t,K, T)
+$$ 
+ où $C_BS$ est le prix donné par le modèle Black-Scholes, $C_obs$ est le prix observé sur le marché ou un prix simulé par un modèle donné.
+- Puisque le prix observé ne change pas à un instant fixe dans le temps, c’est une constante, donc l’équation devient:
+$$
+C_BS (t,S_t,K, T,\sigma) - C = 0
+$$ 
+
+où C∈R est une constante et la solution 
+σ peut être trouvée en utilisant un algorithme itératif de recherche de racine. De plus, on peut remarquer que la formule de Black-Scholes  est bijective par rapport à σ.
 
 
   ## **Pricing Formule**
