@@ -267,9 +267,14 @@ $$
 $$
 
 $$
-\Leftrightarrow \frac{W_t}{\sqrt{\mathrm{T}} 
-\xrightarrow[+\infty]{\mathcal{L}} 
-Z
+\Leftrightarrow \[
+\frac{W_t}{\sqrt{t}} \xrightarrow[t \to +\infty]{\mathcal{L}} Z,
+\quad \text{où} \quad Z \sim \mathcal{N}(0,1).
+\]
+$$
+
+$$
+\Leftrightarrow \ W_t = \sqrt{t} Z
 $$
 
   ## **Pricing Formule**
