@@ -207,10 +207,19 @@ $$
 
 où C∈R est une constante et la solution 
 σ peut être trouvée en utilisant un algorithme itératif de recherche de racine. De plus, on peut remarquer que la formule de Black-Scholes  est bijective par rapport à σ.
+*  **Boundary Condition**
+      
+$$
+C_T = [ S_T - K ]^{+}  = Max(S_T -K, 0)
+$$
 
 $$
 C = exp[-rT] \mathbb{E}^Q[C_T]
+  = exp[-rT] \mathbb{E}^Q[[ S_T - K ]^{+}]
+  = exp[-rT] \mathbb{E}^Q[S 1_A - k 1_A ]
 $$
+
+
 
   ## **Pricing Formule**
 
