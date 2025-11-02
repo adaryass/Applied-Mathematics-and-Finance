@@ -131,10 +131,20 @@ $$
 \Leftrightarrow dY_t = [ \frac{\partial g}{\partial t} + \frac{\partial g}{\partial x} U_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} ] dt + \frac{\partial g}{\partial x} V_t dW_t 
 $$
 
-- Pour : $C = g(t,S_t)$, donc:
-  $$
-  dC =[ \frac{\partial C}{\partial t} + \frac{\partial C}{\partial S} r S_t + \frac{\ 1}{\ 2} \sigma^2 S_t^2 \frac{\partial^2 C}{\partial S^2} ] dt + \frac{\partial C}{\partial S} \sigma S_t dW_t
-  $$
+- Pour : $C = g(t,S_t)$, 
+
+donc:
+$$
+dC =[ \frac{\partial C}{\partial t} + \frac{\partial C}{\partial S} r S_t + \frac{\ 1}{\ 2} \sigma^2 S_t^2 \frac{\partial^2 C}{\partial S^2} ] dt + \frac{\partial C}{\partial S} \sigma S_t dW_t
+$$
+
+$$
+\Leftrightarrow dS_t =  \frac{\partial C}{\partial t} dt + [r S_t dt +  \sigma S_t dW_t] \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S_t^2 \frac{\partial^2 C}{\partial S^2} dt 
+$$
+et
+$$
+dS_t = r S_t dt + \sigma S_t dW_t
+$$
   
 - Itô's Lemma pour dC et dP:
 
