@@ -262,10 +262,15 @@ $$
 
 $$
 \frac{W_t - \mathbb{E}[W_T]}{\sqrt{\mathrm{Var}[W_T]}} 
-\xrightarrow[T \to +\infty]{\mathcal{L}} 
+\xrightarrow[+\infty]{\mathcal{L}} 
 \mathcal{N}(0,1)
 $$
 
+$$
+\Leftrightarrow \frac{W_t}{\sqrt{\mathrm{T}} 
+\xrightarrow[+\infty]{\mathcal{L}} 
+Z
+$$
 
   ## **Pricing Formule**
 
