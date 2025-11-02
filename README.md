@@ -221,12 +221,14 @@ C &= exp[-rT] \mathbb{E}^Q[C_T]
 \end{align} 
 $$
 
+
+
 $$
 A : \text{le Call expire dans la monnaie (ITM)}
 $$
 Où
 $$
-1_A \; \longrightarrow \;
+1_A \ \longrightarrow \
 \begin{cases}
 1, & \text{si } A \text{ est réalisée} \\
 0, & \text{sinon}
