@@ -240,7 +240,7 @@ $$
   = exp[-rT] S_T Q[A] - K exp[-rT] Q[A]
 $$
 
-- Trouvons l'expression de Q[A]: 
+- Trouvons l'expression de **Q[A]**: 
 
 $$
 Q[A] = \mathbb{P}^Q[S_T > K]
@@ -251,12 +251,19 @@ $$
 $$
 
 $$
-     = \mathbb{P}^Q[ \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > \frac{K}{S}]²
+     = \mathbb{P}^Q[ \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > \frac{K}{S}]
 $$
 
 $$
   = \mathbb{P}^Q \Bigg[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t > \ln\left(\frac{K}{S}\right) \Bigg]
 $$
+
+**Théorème central limite** :  
+
+$$
+\frac{W_t - \mathbb{E}[W_T]}{\sqrt{\mathrm{Var}[W_T]}} \xrightarrow[T \to +\infty]{\mathcal{L}} \mathcal{N}(0,1)
+$$
+
 
   ## **Pricing Formule**
 
