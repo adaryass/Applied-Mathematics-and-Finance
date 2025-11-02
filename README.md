@@ -195,13 +195,13 @@ On a : **d𝑉 = dC - hdS = hdS - dP**
 -La volatilité implicite d'un prix d'option donné est la volatilité du modèle Black-Scholes associée à ce prix, c'est à dire que l'on veut trouver la volatilité σ telle que
 
 $$
-C_(BS) (t,S_t,K, T,\sigma) = C_(obs) (t,S_t,K, T)
+C_{BS}(t,S_t,K, T,\sigma) = C_{obs}(t,S_t,K, T)
 $$ 
 
  où $C_BS$ est le prix donné par le modèle Black-Scholes, $C_obs$ est le prix observé sur le marché ou un prix simulé par un modèle donné.
 - Puisque le prix observé ne change pas à un instant fixe dans le temps, c’est une constante, donc l’équation devient:
 $$
-C_BS (t,S_t,K, T,\sigma) - C = 0
+C_{BS}(t,S_t,K, T,\sigma) - C = 0
 $$ 
 
 où C∈R est une constante et la solution 
