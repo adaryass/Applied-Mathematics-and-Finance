@@ -236,7 +236,7 @@ $$
 $$
 
 $$
-C = exp[-rT] \mathbb{E}^Q[S 1_A] - exp[-rT] \mathbb{E}^Q[K 1_A]
+C = exp[-rT] \mathbb{E}^Q[S_T 1_A] - exp[-rT] \mathbb{E}^Q[K 1_A]
 $$
 $$
   = exp[-rT] S_T Q[A] - K exp[-rT] Q[A]
@@ -295,7 +295,14 @@ $$
 
 donc
 
-$Q[A] = \mathbb{P}^Q[Z > - d_2] = \mathbb{P}^Q[Z < d_2]$
+$Q[A] = \mathbb{P}^Q[Z > - d_2] = \mathbb{P}^Q[Z < d_2] =  N(d_2)$
+
+
+donc:
+
+$C = S_T exp[-rT] N(d_2) - K exp[-rT] N(d_2)$
+
+
 
   ## **Pricing Formule**
 
