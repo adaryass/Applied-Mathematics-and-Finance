@@ -325,7 +325,7 @@ où :
 
 
 
- On a : $C_T - P_T =  [ S_T - K ]^{+} = [ K - S_T ]^{+}
+ On a : $C_T - P_T =  [ S_T - K ]^{+} - [ K - S_T ]^{+} = S_T - K$
 
 donc : $C_t - P_t = exp[-rT]\mathbb{E}^Q[C_T - P_T]$ 
  - La **Parité Call-Put** : C − P = S − K exp [−rT]
