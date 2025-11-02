@@ -234,19 +234,24 @@ $$
 $$
 
 $$
-\begin{align}
-C &= exp[-rT] \mathbb{E}^Q[S 1_A] - exp[-rT] \mathbb{E}^Q[K 1_A]
-  &= exp[-rT] S_T Q[A] - K exp[-rT] Q[A]
-\end{align}
+C = exp[-rT] \mathbb{E}^Q[S 1_A] - exp[-rT] \mathbb{E}^Q[K 1_A]
+$$
+$$
+  = exp[-rT] S_T Q[A] - K exp[-rT] Q[A]
 $$
 
+- Trouvons l'expression de Q[A]: 
 
 $$
-\begin{align}
-Q[A] &= \mathbb{P}^Q[S_T > K]
-     &= \mathbb{P}^Q[\exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > K]
-     &= \mathbb{P}^Q[ \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > \frac{K}{S}]
-\end{align}
+Q[A] = \mathbb{P}^Q[S_T > K]
+$$
+
+$$
+     = \mathbb{P}^Q[\exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > K]
+$$
+
+$$
+     = \mathbb{P}^Q[ \exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > \frac{K}{S}]²
 $$
 
 $$
