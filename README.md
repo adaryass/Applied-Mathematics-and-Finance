@@ -134,6 +134,7 @@ $$
 - Pour : $C = g(t,S_t)$, 
 
 donc:
+
 $$
 dC =[ \frac{\partial C}{\partial t} + \frac{\partial C}{\partial S} r S_t + \frac{\ 1}{\ 2} \sigma^2 S_t^2 \frac{\partial^2 C}{\partial S^2} ] dt + \frac{\partial C}{\partial S} \sigma S_t dW_t
 $$
