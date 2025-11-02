@@ -327,7 +327,8 @@ où :
 
  On a : $C_T - P_T =  [ S_T - K ]^{+} - [ K - S_T ]^{+} = S_T - K$
 
-donc : $C_t - P_t = exp[-rT]\mathbb{E}^Q[C_T - P_T]$ 
+donc : $C_t - P_t = exp[-rT]\mathbb{E}^Q[S_T - K]$  
+       $C_t - P_t = exp[-rT] ]\mathbb{E}^Q[S_T] - K exp[-rT]$
  - La **Parité Call-Put** : C − P = S − K exp [−rT]
 
 ## **Black-Scholes Greeks**
