@@ -215,9 +215,9 @@ $$
 
 $$
 \begin{align}
-C = exp[-rT] \mathbb{E}^Q[C_T]
-  = exp[-rT] \mathbb{E}^Q[[ S_T - K ]^{+}]
-  = exp[-rT] \mathbb{E}^Q[S 1_A - k 1_A ]
+C &= exp[-rT] \mathbb{E}^Q[C_T]
+  &= exp[-rT] \mathbb{E}^Q[[ S_T - K ]^{+}]
+  &= exp[-rT] \mathbb{E}^Q[S 1_A - k 1_A ]
 \end{align} 
 $$
 
@@ -235,17 +235,17 @@ $$
 
 $$
 \begin{align}
-C = exp[-rT] \mathbb{E}^Q[S 1_A] - exp[-rT] \mathbb{E}^Q[K 1_A]
-  = exp[-rT] S_T Q[A] - K exp[-rT] Q[A]
+C &= exp[-rT] \mathbb{E}^Q[S 1_A] - exp[-rT] \mathbb{E}^Q[K 1_A]
+  &= exp[-rT] S_T Q[A] - K exp[-rT] Q[A]
 \end{align}
 $$
 
 
 $$
 \begin{align}
-Q[A] = \mathbb{P}^Q[S_T > K]
-     = \mathbb{P}^Q[\exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > K]
-     = \mathbb{P}^Q[ \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > \frac{\K}{S}]
+Q[A] &= \mathbb{P}^Q[S_T > K]
+     &= \mathbb{P}^Q[\exp \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > K]
+     &= \mathbb{P}^Q[ \left[ \left( \mu - \frac{\sigma^2}{2} \right) t + \sigma W_t \right] > \frac{K}{S}]
 \end{align}
 $$
   ## **Pricing Formule**
