@@ -219,6 +219,17 @@ C = exp[-rT] \mathbb{E}^Q[C_T]
   = exp[-rT] \mathbb{E}^Q[S 1_A - k 1_A ]
 $$
 
+$$
+A : { le Call expire dans la monnaie (ITM)}
+$$
+ou
+$$
+1_A \; \longrightarrow \;
+\begin{cases}
+1, & \text{si } A \text{ est réalisée} \\
+0, & \text{sinon}
+\end{cases}
+$$
 
 
   ## **Pricing Formule**
