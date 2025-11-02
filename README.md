@@ -68,22 +68,7 @@ where:
 ## **Itô's Process** 
 
 
-$$
-C = g(t, S_t)
-$$
 
-- $X_t$ est un processus d'Itô, alors
-  $$
-  dX_t = U_t dt + V_t dW_t
-  $$
-- $Y_t = g(t,X_t)$ est un autre processus d'Itô. Alors:
-  $$
-  dY_t =  
-D'après Théorème lemme d’Itô:
-
-$$
-dY_t = \frac{\partial g}{\partial t} (t, X_t) dt + \frac{\partial g}{\partial x} dX_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} (t,X_t) dt
-$$
 
 - Le changement instantané (**Instantaneous price change**) de prix est :
   
@@ -122,6 +107,27 @@ où :
 
 
 ## **Itô's Lemme**
+
+
+$$
+C = g(t, S_t)
+$$
+
+- $X_t$ est un processus d'Itô, alors:  $dX_t = U_t dt + V_t dW_t$
+- $Y_t = g(t,X_t)$ est un autre processus d'Itô. Alors:
+  
+D'après Théorème lemme d’Itô:
+
+$$
+dY_t = \frac{\partial g}{\partial t} (t, X_t) dt + \frac{\partial g}{\partial x} dX_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} (t,X_t) dt
+$$
+
+$$
+dY_t = \frac{\partial g}{\partial t} (t, X_t) dt + \frac{\partial g}{\partial x} U_t dt + \frac{\partial g}{\partial x} V_t dW_t + \frac{\ 1}{\ 2} V_t^2 \frac{\partial^2 g}{\partial x^2} (t,X_t) dt
+$$
+
+
+
 - Itô's Lemma pour dC et dP:
 
   $dC = \frac{\partial C}{\partial S} dS + \frac{\partial C}{\partial t} dt + \frac{\ 1}{\ 2} \sigma^2 S^2 \frac{\partial^2 C}{\partial S^2} dt$
