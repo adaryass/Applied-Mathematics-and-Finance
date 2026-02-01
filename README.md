@@ -55,7 +55,7 @@ where:
       $\mathbb{E}^P[\cdot] \longrightarrow \mathbb{E}^Q[\cdot]$
 
 
-                                        
+                                         
       
    c. Les frais de transaction et impôts sont nuls.
    
