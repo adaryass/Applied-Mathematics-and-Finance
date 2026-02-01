@@ -140,7 +140,7 @@ dC =[ \frac{\partial C}{\partial t} + \frac{\partial C}{\partial S} r S_t + \fra
 $$
 
 $$
-\Leftrightarrow dC_t =  \frac{\partial C}{\partial t} dt + [r S_t dt +  \sigma S_t dW_t] \frac{\partial C}{\partial t} + \frac{\ 1}{\ 2} \sigma^2 S_t^2 \frac{\partial^2 C}{\partial S^2} dt 
+\Leftrightarrow dC_t =  \frac{\partial C}{\partial t} dt + [r S_t dt +  \sigma S_t dW_t] \frac{\partial C}{\partial S} + \frac{\ 1}{\ 2} \sigma^2 S_t^2 \frac{\partial^2 C}{\partial S^2} dt 
 $$
 et
 $$
